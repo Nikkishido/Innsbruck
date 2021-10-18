@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    
+
+}
+.menu{
+  flex-grow: 1;
+}
+ul{
+    list-style:none;
+
+}
+.logo{
+    width: 75px;
+    height: 70px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-list a{
+    font-size: 24px;
+    line-height: 2.5;
+    color: #2A3D8F;
+    
+}
+.menu-list a:hover{
+color: #3893cc;
+text-decoration: underline;
+}
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 10px;
+}
+.footer{
+background-color:#B5D4C5;
+display: flex;
+justify-content: space-evenly;
+padding:30px 0px;
+}
+.footer-list{
+    display: flex;
+
+}
+.footer p:first-of-type{
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.footer-list li{
+    margin-left: 20px;
+}
+.footer-list li:first-of-type{
+    margin: 0;
+}
+
+.slogan{
+    background-image: url(../img/innsbruck1.png);
+    height:558px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.slogan h1{
+    color: white;
+    padding-top:240px ;
+    font-size: 60px;
+}
+h2{
+    font-size: 36px;
+    color: #2A3D8F;
+    line-height:49px ;
+}
+h3{
+    font-size:30px;
+    line-height: 41px;
+    margin-top:30px;
+}
+.article{
+    margin-top: 40px;
+}
+.info p{
+margin-top: 30px;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.numbers-list{
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.numbers-list li::before{
+content: "✓";
+margin-right:5px;
+}
+.marketing{
+background-image:url(../img/skier.png);
+background-size: cover;
+width: 30%;
+display: flex;
+flex-direction: column;
+}
+.marketing p{
+    font-size: 2vw;
+    text-transform: uppercase;
+    padding: 5px;
+    line-height:35px;
+    font-weight: bold;
+}
+.marketing a{
+align-self: flex-end;
+margin-top:60px;
+background-color: white;
+text-transform: uppercase;
+padding: 5px 10px;
+
+}
+.temperature{
+    border: 2px solid rgb(90, 86, 86);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.temperature-title{
+    background-color: rgb(124, 124, 124) ;
+    padding:5px;
+    color: white;
+    font-size:22px;
+    font-weight: bold;
+    
+}
+.galery_list{
+    display: flex;
+    flex-direction: column;
+
+}
+.galery_item{
+    display: flex;
+    margin-bottom:10px;
+    align-items:center ;
+    background-color: #B5D4C5;
+    color: white;
+    text-align: center;
+    min-height: 256px;
+}
+.galery_item h3{
+    flex-grow: 1;
+    text-transform:uppercase;
+}
+td,th{
+border:1px solid #333;
+padding: 5px;
+text-align: center;
+}
+thead{
+    background-color:rgb(40, 65, 146);
+    color: white;
+}
+table{
+    margin:20px auto;
+    border-collapse: separate;
+}
+h2{
+    margin:45px 0;
+}
